@@ -16,7 +16,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res)=>{
-    res.json({ message: 'Welcome to api semina'});
+    res.json({ message: 'Welcome to api seminarrr'});
 });
 
 app.use(`${versionV1}`, usersRouter);
